@@ -1,0 +1,211 @@
+ /*==========================================================================*/
+   /*Global Overrides*/
+  /*========================================================================== */*/
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/*Fonts (Google)
+- Roboto Slab
+- Source Sans
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+/*Colors
+- Light Purple: RGBA(73, 61, 89, 1.00)
+- Yellow: RGBA(255, 208, 101, 1.00)
+- Lighter Purple: RGBA(86, 73, 105, 1.00)
+
+Other Notes
+- Remember to paste in the box-sizing border box that we've used. Hint it looks something like: *{}
+- Remember to copy over the .clearfix code we've used
+- Remember to bring over a normalize.css OR a reset.css from a previous project. Make sure you link them in your file.*/ 
+
+
+/* Global
+   ================================================================ */
+
+/* Layout
+   ================================================================ */
+body {
+    background-color: RGBA(73, 61, 89, 1.00);
+    color: RGBA(86, 73, 105, 1.00);
+}
+
+p{
+    background-color: RGBA(73, 61, 89, 1.00);
+    color: RGBA(86, 73, 105, 1.00);
+}
+
+/* Headings
+   ================================================================ */
+header{
+     background-color: RGBA(73, 61, 89, 1.00);
+    color: RGBA(86, 73, 105, 1.00);
+}
+
+/* Text Styles
+   ================================================================ */
+/*Fonts (Google)
+- Roboto Slab
+- Source Sans
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+/*Colors
+- Light Purple: RGBA(73, 61, 89, 1.00)
+- Yellow: RGBA(255, 208, 101, 1.00)
+- Lighter Purple: RGBA(86, 73, 105, 1.00)*/
+/*- White: RGBA(255,255,255, 1.00)
+*/
+h1 {
+    background-color: RGBA(73, 61, 89, 1.00);
+    color: RGBA(255, 255, 255, 1.00);
+    font-family: 'Roboto';
+    font-style: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    background-color: RGBA(73, 61, 89, 1.00);
+    color: RGBA(229, 204, 205, 1.00);
+    font-family: 'Source';
+    font-variant: small-caps;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*h3 {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: 
+    margin-left:
+}
+
+ /*  Create three equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 33.33%;
+    height: 75%;*/
+}
+
+/*.col-container {
+    display: block;
+    width: 300px; */
+}
+
+/*.col {
+    display: block; 
+    border: right;
+    border-color: #D7E0DB;*/
+
+}
+
+/* Clear floats after the columns */
+
+/*
+.column, .row:after {
+    content: "";
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #080808;
+    clear: right;*/
+  /*}
+
+h4 {
+}
+
+h5 {
+  }
+
+h6 {
+}
+
+.tagline {
+}
+*/
+/* Header
+   ================================================================ */
+header {
+}
+
+
+ /*Footer
+   ================================================================ */
+
+/*footer {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: #3B393A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+*/
+/* Navigation
+   ================================================================ 
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+ /*Buttons*/
+   /*================================================================ */
+
+/*a.button1 {
+}
+
+a.button2{
+}
+
+a.button3{
+}
+
+a.button4{
+}*/
+
+
+
+
+
+
+ /*?Transparent Box */
+    /*===============================================================*/
+/*.box1 {
+}
+
+div.background {
+}
+
+div.transbox {
+}
+
+div.transbox h5 {
+}
+*?
+
+
+/*Image*/
+
+img {
+    display: block;
+    margin: auto;
+    width: 100;
+    height: 100;
+}
